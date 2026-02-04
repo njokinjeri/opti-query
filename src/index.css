@@ -1,1 +1,29 @@
-@import "tailwindcss"
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-iter: "Inter", sans-serif;
+    --color-pink: #D438FF;
+    --color-purple: #8C45FF;
+    --color-purple-dark-1: #4A208A;
+    --color-purple-dark-2: #371866;
+    --color-purple-dark-3: #190D2E;
+
+    --animate-rise: rise 6s ease-in-out infinite;
+    
+    @keyframes rise {
+        0% {
+            transform: translateY(35%);
+            opacity: 0.4;
+        }
+        50% {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(35%);
+            opacity: 0.4;
+        }
+    }
+
+}

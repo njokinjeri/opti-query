@@ -4,6 +4,7 @@ import blur from "../../assets/abstract/blur.png"
 import shadow from "../../assets/abstract/shadow.png"
 
 export default function CTA() {
+    
     return (
         <section id="cta" className="w-full max-w-7xl mx-auto flex border border-white/20 rounded-xl overflow-hidden relative">
             <div className="absolute inset-0 pointer-events-none">
@@ -22,7 +23,7 @@ export default function CTA() {
                         placeholder="Your Email..." 
                         className="w-full border border-white/20 p-3 text-white/60 rounded-lg"/>
                     <button 
-                        type="submit" 
+                        type="button" 
                         className="bg-white text-black font-bold p-2 rounded-lg cursor-pointer md:absolute md:right-2 md:top-1/2 md:-translate-y-1/2"
                         >Join waitlist
                     </button>

@@ -1,17 +1,9 @@
 import heroFeature from "../../assets/hero-image.webp";
 import heroShade from "../../assets/abstract/hero-shade.webp";
-import heroMask from "../../assets/abstract/hero-mask2.webp";
 
 export default function Hero() {
     return (
-        <section className="w-full flex flex-col items-center gap-4 text-white font-iter"
-                style={{
-                    backgroundImage: `url(${heroMask})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat',
-                }}
-        >
+        <section className="w-full flex flex-col items-center gap-4 text-white font-iter bg-hero bg-cover bg-center bg-no-repeat">
             <div className="flex items-center gap-2 bg-black text-white border border-white/20 rounded-4xl mt-20 py-2.5 px-8">
                 <span className="bg-purple text-sm text-black font-medium py-1 px-1.5 rounded-xl">New</span>
                 <p className="text-purple">Latest integration just arrived</p>

@@ -1,6 +1,6 @@
 import heroFeature from "../../assets/hero-image.webp";
-import heroShade from "../../assets/abstract/hero-shade.png";
-import heroMask from "../../assets/abstract/hero-mask2.png";
+import heroShade from "../../assets/abstract/hero-shade.webp";
+import heroMask from "../../assets/abstract/hero-mask2.webp";
 
 export default function Hero() {
     return (

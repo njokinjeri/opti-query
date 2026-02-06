@@ -1,7 +1,7 @@
-import Client1 from "../assets/reviews/1.png"
-import Client2 from "../assets/reviews/2.png"
-import Client3 from "../assets/reviews/3.png"
-import Client4 from "../assets/reviews/4.png"
+import Client1 from "../assets/reviews/1.webp"
+import Client2 from "../assets/reviews/2.webp"
+import Client3 from "../assets/reviews/3.webp"
+import Client4 from "../assets/reviews/4.webp"
 
 export type Review = {
     id: string;

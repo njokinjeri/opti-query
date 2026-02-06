@@ -1,7 +1,7 @@
 import { Dot } from 'lucide-react';
-import gridPattern from "../../assets/abstract/grid-pattern.png"
-import blur from "../../assets/abstract/blur.png"
-import shadow from "../../assets/abstract/shadow.png"
+import gridPattern from "../../assets/abstract/grid-pattern.webp"
+import blur from "../../assets/abstract/blur.webp"
+import shadow from "../../assets/abstract/shadow.webp"
 
 export default function CTA() {
     

@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { reviews } from "../../config/reviews.config";
-import SubtleBlur from "../../assets/abstract/subtle-blur.png";
-import LineImg1 from "../../assets/abstract/Line 1.png"
-import LineImg2 from "../../assets/abstract/Line 2.png";
+import SubtleBlur from "../../assets/abstract/subtle-blur.webp";
+import LineImg1 from "../../assets/abstract/Line 1.webp"
+import LineImg2 from "../../assets/abstract/Line 2.webp";
 
 export default function Reviews() {
     const [activeIndex, setActiveIndex] = useState(0);

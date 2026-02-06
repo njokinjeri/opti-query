@@ -2,9 +2,9 @@ import { useState } from "react";
 import NavLink from "../navigation/NavLink";
 import { Check } from "lucide-react";
 import { pricingPlans } from "../../config/pricing.config";
-import blurDot from "../../assets/abstract/blur-dot.png";
-import grid from "../../assets/abstract/grid-pattern.png";
-import shadow from "../../assets/abstract/shadow.png";
+import blurDot from "../../assets/abstract/blur-dot.webp";
+import grid from "../../assets/abstract/grid-pattern.webp";
+import shadow from "../../assets/abstract/shadow.webp";
 
 export default function Pricing() {
   const [billing, setBilling] = useState("yearly");

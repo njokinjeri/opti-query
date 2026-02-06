@@ -2,6 +2,8 @@
 
 ![Opti Query Landing Page Preview](./public/design/design-preview.png)
 
+- **Live Site:** [https://opti-query.netlify.app/](https://opti-query.netlify.app/)
+
 ### Design Attribution
 
 This project is based on the **AI Startup Kit** design created in Framer.  

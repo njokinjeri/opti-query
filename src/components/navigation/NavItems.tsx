@@ -4,7 +4,7 @@ import NavLink from "./NavLink";
 const navItems: NavItem[] = [
   { label: "Features", href: "#features" },
   { label: "Partners", href: "#partners" },
-  { label: "Reviews", href: "#testimonials" },
+  { label: "Reviews", href: "#reviews" },
   { label: "Pricing", href: "#pricing" },
 ];
 

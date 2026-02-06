@@ -7,7 +7,7 @@ import cone from "../../assets/abstract/cone.webp";
 
 export default function Features () {
     return (
-        <section className="flex flex-col gap-10 items-center font-iter">
+        <section id="features" className="flex flex-col gap-10 items-center font-iter">
             <section className="flex flex-col items-center text-white">
                 <h3 className="w-2/3 text-2xl tracking-wide font-medium text-center py-4 md:w-140 md:text-3xl">
                     Harness the power of AI, making search engine optimization intuitive and effective for all skill levels.

@@ -4,7 +4,7 @@ import { footerGroups } from "../../config/footer.config"
 
 export default function Footer() {
     return (
-        <footer className="fixed bottom-0 left-0 w-full flex border-t border-white/20 select-none">
+        <footer className="w-full flex border-t border-white/20 select-none mt-10">
             <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row">
                 <section className="w-full flex justify-between md:flex-col px-6 py-10 ">
                     <div className="flex items-center gap-2 text-white">

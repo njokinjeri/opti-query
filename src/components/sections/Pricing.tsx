@@ -1,4 +1,5 @@
 import { useState } from "react";
+import NavLink from "../navigation/NavLink";
 import { Check } from "lucide-react";
 import { pricingPlans } from "../../config/pricing.config";
 import blurDot from "../../assets/abstract/blur-dot.png";
@@ -10,12 +11,13 @@ export default function Pricing() {
 
   return (
     <section 
+        id="pricing"
         className="max-w-7xl mx-auto px-6 pb-20 text-white relative"
         style={{
             backgroundImage: `url(${blurDot})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat'
+            backgroundRepeat: 'no-repeat',
         }}
     >
         <div className="flex flex-col items-center text-center mb-12">
@@ -92,7 +94,9 @@ export default function Pricing() {
                                             }
                         `}
                         >
-                            Join waitlist
+                            <NavLink href="#cta">
+                                Join waitlist
+                            </NavLink>
                         </button>
                     </div>
                 );

@@ -5,7 +5,7 @@ import shadow from "../../assets/abstract/shadow.png"
 
 export default function CTA() {
     return (
-        <section className="w-full max-w-7xl mx-auto flex border border-white/20 rounded-xl overflow-hidden relative">
+        <section id="cta" className="w-full max-w-7xl mx-auto flex border border-white/20 rounded-xl overflow-hidden relative">
             <div className="absolute inset-0 pointer-events-none">
                 <img src={gridPattern} alt="" className="absolute inset-0 w-full h-full object-cover z-10" />
                 <img src={shadow} alt="" className="absolute top-0 left-1/3 -translate-x-1/2 w-[120%] max-w-none z-5" />

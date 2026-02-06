@@ -8,7 +8,7 @@ type MobileNavProps = {
 
 export default function MobileNav({ onClose }: MobileNavProps) {
   return (
-    <div className="fixed top-0 right-0 h-full w-3/4 bg-black/75 backdrop-blur-sm shadow-xl z-50 flex flex-col">
+    <div className="fixed top-0 right-0 h-full w-3/4 bg-black/75 backdrop-blur-md shadow-xl z-50 flex flex-col">
         <div className="absolute inset-0 bg-[url('/noise.jpg')] opacity-15 pointer-events-none"></div>
         <div className="absolute bottom-0 left-0 w-full h-1/4 bg-linear-to-t
                         from-purple/20 via-purple/10 to-transparent animate-rise"></div>

@@ -16,10 +16,10 @@ export default function Reviews() {
     }, []);
 
     return (
-        <section className="w-full max-w-7xl mx-auto flex flex-col items-center gap-4 text-white py-40">
+        <section id="reviews" className="w-full max-w-7xl mx-auto flex flex-col items-center gap-4 text-white py-30 overflow-hidden">
             <div className="flex flex-col items-center gap-4">
-                <h3 className="text-5xl font-bold">Our clients</h3>
-                <p className="w-2/3 text-lg text-center py-6">Hear firsthand how our solutions have boosted online success for users like you</p>
+                <h3 className="text-6xl font-bold">Our clients</h3>
+                <p className="w-2/3 text-xl text-center py-6">Hear firsthand how our solutions have boosted online success for users like you</p>
             </div>
             <div 
                 key={activeIndex}
@@ -28,7 +28,7 @@ export default function Reviews() {
                     md:flex-row md:justify-center
                     animate-review-slide"
                 >
-                <div className="w-65 md:w-[320px] flex justify-center items-center relative">
+                <div className="w-65 md:w-[320px] flex justify-center items-center relative md:py-10">
                     <img src={SubtleBlur} alt="" className="absolute w-[300%] max-w-none object-contain pointer-events-none z-0" />
                     <div className="relative flex justify-center items-center py-6">
                         <img src={LineImg1} className="absolute -top-4 rotate-90  opacity-60 md:-top-46 md:-right-30 md:h-200" alt="" />

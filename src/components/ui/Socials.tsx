@@ -9,7 +9,6 @@ export default function Socials() {
             <FontAwesomeIcon icon={faXTwitter} size="xl" className="hover:text-purple-dark-2 cursor-pointer"/>
             <FontAwesomeIcon icon={faInstagram} size="xl" className="hover:text-purple-dark-2 cursor-pointer"/>
             <FontAwesomeIcon icon={faYoutube} size="xl" className="hover:text-purple-dark-2 cursor-pointer"/>
-
         </div>
     )
 };
